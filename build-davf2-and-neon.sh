@@ -21,4 +21,6 @@ docker run -it --name davfs2-builder \
     -v $RESULT_FOLDER/:/work/ \
     davfs2-builder /build.sh
 
-printf "Install the softwares by going to the result subfolders and running sudo make install\n"
+printf "Install the softwares by going to the result subfolders and running sudo make install\n
+Ensure that you hav the following packages installed : gcc (or build-essential), libssl-dev, libxml2-dev, make\n
+Do not forget to create the davfs2 group and user (see Davfs2 INSTALL document).\n"

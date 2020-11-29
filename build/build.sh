@@ -21,7 +21,7 @@ cd ..
 
 # Build davfs2
 export DAVFS2_VERSION=1.6.0
-wget http://download.savannah.nongnu.org/releases/davfs2/davfs2-1.6.0.tar.gz
+wget http://download.savannah.nongnu.org/releases/davfs2/davfs2-$DAVFS2_VERSION.tar.gz
 tar -zxvf davfs2-$DAVFS2_VERSION.tar.gz
 cd davfs2-$DAVFS2_VERSION
 
